@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>de.dimensionv</groupId>
   <artifactId>closeabletabbedpane</artifactId>
   <name>CloseableTabbedPane</name>
   <version>1.0.0</version>
+  <packaging>jar</packaging>
 
   <description>
     A JTabbedPane that can have a close-icon ('X') on each tab.
@@ -26,6 +29,7 @@
       <roles></roles>
     </developer>
   </developers>
+
   <scm>
     <connection>
       https://github.com/dimensionv/closeabletabbedpane.git
@@ -37,8 +41,9 @@
       https://github.com/dimensionv/closeabletabbedpane
     </url>
   </scm>
+
   <build>
-    <finalName>commonutilities</finalName>
+    <finalName>closeabletabbedpane</finalName>
     <plugins>
       <!--  Enforce JVM compatibility of sources and binaries.  -->
       <plugin>
